@@ -19,17 +19,26 @@
 
 </head>
 <script src="PortfolioAnimation.js"></script>
+<script src="Navigation.js"></script>
 <body>
     <div>
         <div class="sticky">
-            <div style="display: flex; padding-bottom: 10px;">
-                <img src="Hotel Project/images/profile-pic (5).png" alt="ab" style="width: 70px; height: 70px; margin-top: 15px; margin-left: 70px;">
-                <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bolder; margin-top: 30px; margin-left: 20px; font-size: large;">
-                    <samp style="font-size: x-large;"> BARATHKUMARAN K S </samp>
-                </p>
-                <div style="margin-top: 30px; margin-left: 600px;">
-                    <li style="display: flex; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 1000; font-size: large;">
-                        <ul> <a href="" style="text-decoration: none; color: black;"><samp>HOME</samp></a></ul>
+            <div style="display: flex; align-items: center; padding-bottom: 10px;">
+                <img src="Hotel Project/images/profile-pic (5).png" alt="ab" style="width: 70px; height: 70px; margin-top: 15px; margin-left: 70px; ">
+                <div>
+                    <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bolder; margin-top: 30px; margin-left: 20px; font-size: large; ">
+                        <samp style="font-size: x-large;"> BARATHKUMARAN<samp style="font-size: x-large; margin-left: 8px;">K</samp><samp style="font-size: x-large; margin-left: 8px;">S</samp> </samp>
+                    </p>
+                </div>
+                <!-- Navigation Links -->
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="nav-links">
+                    <li style="display: flex; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 1000; font-size: large; padding-left: 290px; margin-top: 25px;">
+                        <ul><a href="" style="text-decoration: none; color: black;"><samp>HOME</samp></a></ul>
                         <ul style="margin-left: 30px;"><a href="#ABOUT" style="text-decoration: none; color: black;"><samp>ABOUT</samp></a></ul>
                         <ul style="margin-left: 30px;"><a href="#PROJECT" style="text-decoration: none; color: black;"><samp>PROJECT</samp></a></ul>
                         <ul style="margin-left: 30px;"><a href="#CONTACT" style="text-decoration: none; color: black;"><samp>CONTACT</samp></a></ul>
@@ -37,7 +46,6 @@
                 </div>
             </div>
         </div>
-
         <div class="bg">
             <div class="in-animation5">
                 <div class="social-icons" style="position: absolute;">
@@ -49,22 +57,19 @@
                 </div>
             </div>
             
-            <div class="in-animation7">
-                <div>
-                    <h1 class="head1" style=" padding-top: 15px; padding-top: 160px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bolder; margin-left: 320px; font-size: 70px;">HEY, I'M BARATHKUMARAN<span class="dot">.</span></h1>
-                </div>
+            <div class="in-animation7" style="width: 100%;">
+                 <h1 class="head1" style=" padding-top: 15px; padding-top: 160px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bolder;">HEY, I'M BARATHKUMARAN<span class="dot">.</span></h1>
                  <div class="in-animation4">
                     <h3 style="text-align: center; padding-top: 40px; margin-left: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
                         A Result - Oriented Web Developer building and managing Websites and Web 
                     </h3>
-                    <p style="margin-top: 20px; font-size: 25px; text-align: center; font-family: inherit;">
+                    <p class="para" style="margin-top: 20px;text-align: center; font-family: inherit;">
                         Applications that leads to the success of the overall product
                     </p>
                  </div>
-                 
             </div>
            <div class="button12">
-            <div style="background-color:blueviolet; padding: 15px;  margin-left: 650px; width: 220px; height: 55px; border-radius: 5px; margin-top: 80px;" class="button" >
+            <div class="button" >
                 <a href="#PROJECT" style="text-decoration: none;"><p style="text-align: center; color: aliceblue; font-weight: bolder;">PROJECT</p></a>
             </div>
             <div class="scroll-icon">
@@ -84,7 +89,7 @@
                      ABOUT ME
                     </samp> 
                  </h1>
-                 <div style="width: 50px; height: 5px; background-color: blueviolet; border-radius: 60px; margin-left: 730px; margin-top: 20px;">
+                 <div class="underline">
     
                  </div>
                  <p style="text-align: center; color:gray; font-size: x-large; margin-top: 50px;">
@@ -92,8 +97,8 @@
                  </p>
             </div>
             
-             <div style="display: flex; margin-top: 40px;" >
-                <div style="width: 580px; margin-left: 135px; " class="in-animation5">
+             <div class="aands" >
+                <div class="in-animation5">
                     <h2> <samp style="font-weight: bolder;">Get to know me!</samp></h2>
                     <p style="margin-top: 30px; color: gray;"> <samp>I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.</samp> </p>
 
@@ -102,8 +107,8 @@
                         
                       <p style="color: gray;"><samp>  I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</samp></p>
                       <div class="button12">
-                        <div style="background-color:blueviolet; padding: 15px; width:180px;height: 55px;  border-radius: 5px; margin-top: 50px;" class="button">
-                            <a href="#CONTACT" style="text-decoration: none;"><p style="text-align: center; color: aliceblue; font-weight: bolder;">CONTACT ME</p></a>
+                        <div style="background-color:blueviolet; padding: 15px; width:180px;height: 55px;  border-radius: 5px; margin-top: 20px;">
+                            <a href="#CONTACT" target="_blank" style="text-decoration: none;"><p style="text-align: center; color: aliceblue; font-weight: bolder;">Contact Me</p></a>
                         </div>
                       </div>
                       
@@ -152,7 +157,7 @@
             </div>
                 <div class="in-animation7">
                     <img src="Hotel Project/images/Screenshot (210).png" alt="" style="position: absolute; width: 460px; height: 297px; margin-left: 246px; margin-top: 121px;">
-                    <div style="display: flex;">
+                    <div class="fle">
                     <img src="Hotel Project/images/project-mockup-example.png" alt="" style="width: 650px; height: 400px; margin-top: 80px; margin-left: 150px;">
                     <div >
                         <h3 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-top: 140px; margin-left: 60px; font-weight: bolder;">
@@ -170,7 +175,7 @@
                 </div>
                 <div class="in-animation7">
                     <img src="Hotel Project/images/Screenshot (209).png" alt="" style="position: absolute; width: 455px; height: 293px; margin-left: 250px; margin-top: 123px;">
-                    <div style="display: flex;">
+                    <div class="fle">
                        <img src="Hotel Project/images/project-mockup-example.png" alt="" style="width: 650px; height: 400px; margin-top: 80px; margin-left: 150px;">
                        <div >
                            <h3 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-top: 130px; margin-left: 60px; font-weight: bolder;">
@@ -189,7 +194,7 @@
                 </div>
                  <div class="in-animation7">
                     <img src="Hotel Project/images/Screenshot (215).png" alt="" style="position: absolute; width: 460px; height: 295px; margin-left: 246px; margin-top: 123px;">
-                    <div style="display: flex;">
+                    <div class="fle">
                        <img src="Hotel Project/images/project-mockup-example.png" alt="" style="width: 650px; height: 400px; margin-top: 80px; margin-left: 150px;">
                        <div>
                            <h3 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-top: 130px; margin-left: 60px; font-weight: bolder;">
@@ -207,7 +212,7 @@
                  </div>
                  <div class="in-animation7">
                     <img src="Hotel Project/images/Screenshot (212).png" alt="" style="position: absolute; width: 460px; height: 296px; margin-left: 246px; margin-top: 122px;">
-                    <div style="display: flex;">
+                    <div class="fle">
                        <img src="Hotel Project/images/project-mockup-example.png" alt="" style="width: 650px; height: 400px; margin-top: 80px; margin-left: 150px;">
                        <div>
                            <h3 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-top: 130px; margin-left: 60px; font-weight: bolder;">

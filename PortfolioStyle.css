@@ -111,6 +111,7 @@ body {
 
 .button{
     transition-duration: 0.5s;
+    background-color:blueviolet; padding: 15px;  margin-left: 650px; width: 220px; height: 55px; border-radius: 5px; margin-top: 80px;
     
 }
 .button:hover{
@@ -237,6 +238,8 @@ transform: scale(1);
         white-space: nowrap;
         overflow: hidden;
         animation: typing 4s steps(45, end), blink-caret 0.75s step-end infinite;
+        margin-left: 320px; 
+        font-size: 70px;
 }
 
 .dot {
@@ -288,3 +291,92 @@ color: #1da1f2;
 color: #ff0000;
 }
 
+.hamburger {
+    display: block;
+    cursor: pointer;
+    flex-direction: column;
+    margin-top: 18px;
+    opacity: 0;
+}
+
+.hamburger div {
+    width: 20px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: black;
+    margin-left: 320px;
+}
+
+.para{
+    font-size: 25px; 
+}
+.underline{
+    width: 50px; height: 5px; background-color: blueviolet; border-radius: 60px; margin-left: 730px; margin-top: 20px;
+}
+.aands{
+    display: flex; margin-top: 40px;
+}
+.aands .in-animation5{
+    width: 580px; margin-left: 135px;
+}
+.button34{
+    transition-duration: 0.5s;
+    background-color:blueviolet; padding: 15px; width:180px;height: 55px;  border-radius: 5px; margin-top: 20px; margin-left: 10px;
+}
+.fle{
+    display: flex;
+}
+@media screen and (max-width: 768px) {
+    .hamburger{
+        opacity: 100;
+    }
+    .sticky{
+        width: 100%;
+        
+    }
+    .nav-links{
+        opacity: 0;
+    }
+    .head1{
+        margin-left: 180px;
+        font-size: xx-large;
+    }
+    .in-animation4 h3{
+        font-size: 20px;
+    }
+    .para{
+        font-size:large;
+        margin-left: 50px;
+    }
+    .social-icons{
+        font-size: 1px;
+    }
+    .button{
+        margin-left: 280px;
+    }
+    .scroll-icon{
+        margin-left: 390px;
+    }
+    .underline{
+        margin-left: 340px;
+    }
+    .aands{
+        display: block;
+    }
+    .aands .in-animation5{
+        margin-left: 100px;
+    }
+    .aands .in-animation5 h2{
+        margin-left: 160px;
+    }
+    .button34{
+        margin-left: 10px;
+    }
+    .aands .in-animation6{
+        margin-top: 40px;
+    }
+    .fle{
+        display: block;
+    }
+
+}
