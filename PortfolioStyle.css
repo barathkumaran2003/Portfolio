@@ -82,7 +82,7 @@ body {
     border-radius: 50px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+     align-items: flex-start;
     
 }
 
@@ -366,7 +366,7 @@ color: #ff0000;
 .lie p samp{
     margin-left: 450px;
 }
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .hamburger{
         opacity: 100;
     }
@@ -442,6 +442,115 @@ color: #ff0000;
     }
     #fom form input{
         width: 460px;
+    }
+    .fot{
+        padding-top: 5px; margin-left: 0.1px;
+        width: auto;
+    }
+    .som{
+        margin-left: 10px;
+        width: auto;
+    }
+    .social-icons1{
+        margin-left: 10px;
+    }
+    .fot h3{
+        margin-top: 100px; margin-left: 1px; font-weight: bolder;
+    }
+    .fot p{
+        width: 290px; margin-left: 1px; margin-top: 1px; line-height: 40px; font-size: small;
+    }
+    .som h3{
+        margin-top: 100px; margin-left: 10px; font-weight: bolder;
+    }
+    .lie p{
+        margin-left: 1px;
+        width: 500px;
+    }
+    .lie p samp{
+        margin-left: 1px;
+    }
+
+} */
+@media screen and (max-width: 600px) {
+    .hamburger{
+        opacity: 100;
+    }
+    .hamburger div{
+        margin-left: 40px;
+    }
+    .sticky{
+        width: 100%;
+        
+    }
+    .nav-links{
+        opacity: 0;
+    }
+    .head1{
+        margin-left: 125px;
+        font-size: large;
+    }
+    .in-animation4 h3{
+        font-size: 15px;
+    }
+    .para{
+        font-size:small;
+        margin-left: 50px;
+    }
+    .social-icons{
+        font-size: 1px;
+    }
+    .button{
+        margin-left: 140px;
+    }
+    .scroll-icon{
+        margin-left: 250px;
+    }
+    .underline{
+        margin-left: 210px;
+    }
+    .aands{
+        display: block;
+        
+    }
+    .aands .in-animation5{
+        margin-left: 20px;
+        max-width: 410px;
+    }
+    .aands .in-animation5 h2{
+        margin-left: 90px;
+    }
+    .aands .in-animation6{
+        margin-left: 20px;
+        width: 410px;
+    }
+    .button34{
+        margin-left: 10px;
+    }
+    .aands .in-animation6{
+        margin-top: 40px;
+    }
+    .fle{
+        display: block;
+    }
+    .inm{
+        margin-left: 71px;
+        width: 340px; 
+        height: 199px;
+        margin-top: 109px;
+    }
+    .fle img{
+        margin-left: 0.1px;
+        width: 480px; 
+        height: 270px;
+
+    }
+    #fom{
+        width: 450px;
+        margin-left: 10px;
+    }
+    #fom form input{
+        width: 300px;
     }
     .fot{
         padding-top: 5px; margin-left: 0.1px;
