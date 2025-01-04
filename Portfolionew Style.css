@@ -170,6 +170,7 @@ background-color: #3b5998;
 }
 
 .social-icons {
+display: flex;
 flex-direction: column;
 justify-content: center;
 padding: 0px;
